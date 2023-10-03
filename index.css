@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'CookieRun-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/CookieRun-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: 'CookieRun-Regular';
+    background: rgb(15,1,73);
+    background: linear-gradient(90deg, rgb(37, 97, 209) 0%, rgb(140, 131, 236) 41%, rgb(249, 201, 255) 100%);
+    height: 100vh;
+}
+
+.dg{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(./Lino.png) center bottom no-repeat;
+    min-width: 300px;
+    width: 100%;
+    max-width: 800px;
+    background-size: auto 100%;
+}
+
+.text {
+    color: rgb(255 255 255);
+    line-height: 2; 
+    transform: translateY(80%);
+    padding-left: 10%;
+    font-size: 30px;
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.5);
+}
